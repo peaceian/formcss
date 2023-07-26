@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表單練習</title>
+    <style>
+        h1 {background-color: #4ca2da;color:aliceblue;border-radius: 10px;width:fit-content;border: solid #1e5397;}
+        form {background-color:#1e5397;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;width: 250px;border-radius: 10px;padding: 20px;border-collapse: collapse;}
+        
+        fieldset {color:#191414;background-color:#376db6;border-radius: 10px;width: 40%;border-collapse: collapse;}
+        input {border-radius: 5px;margin: 5px;}
+        label,legend {background-color:#4ca2da ;border-radius: 5px;color:aliceblue;font-family:'Times New Roman', Times, serif;margin: 5px;padding: 1px;}
+        input.focus:focus {background-color: #c5cfdc;}
+    </style>
+
+</head>
+<body>
+    
+    <h1>The fieldset element + CSS</h1>
+
+<form method="post/get" action="122333@examplemail.com" enctype="text/plain">
+ <fieldset> 
+  <legend>Personal Profile</legend>
+  <label for="fname">First name:</label>
+  <input type="text" class="focus" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" class="focus" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" class="focus" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" class="focus" id="birthday" name="birthday"><br><br>
+  <input type="submit" value="Submit" style="background-color: #4ca2da;color: aliceblue;font-family: 'Times New Roman', Times, serif;font-size: large;">
+ </fieldset>
+</form>
+    
+</body>
+</html>

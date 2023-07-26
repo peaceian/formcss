@@ -1,2 +1,2 @@
 # formcss
-The diary training, form and css.
+The daily training, form and css.

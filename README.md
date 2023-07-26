@@ -1,2 +1,2 @@
 # formcss
-The journal training, form and css.
+The diary training, form and css.
